@@ -56,7 +56,7 @@ void MESI_protocol::process_snoop_request (Mreq *request)
         case MESI_CACHE_IM:  do_snoop_IM (request); break;
         case MESI_CACHE_SM:  do_snoop_SM (request); break;
         default:
-            fatal_error ("Invalid Cache State for MESI Protocol\n");
+            fatal_error ("Invalid Cache State for MESI Protocol!\n");
     }
 }
 
