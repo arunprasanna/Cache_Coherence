@@ -7,6 +7,5 @@ To run a particular protocol on a particular system type:
 ./sim_trace  -t trace_directory  -p protocol
 
 Example:
-
 ./sim_trace -t traces/16proc_validation -p MOESIF
 
